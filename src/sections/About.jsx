@@ -51,10 +51,7 @@ export const About = () => {
                             my tech stack and adopting modern frameworks to create full functional apps.
                             
                         </p>
-                        <p>
-                            University taught me the ins and outs of Java, while other experiences and projects have given me insighsts in
-                            javascript and react. aswell as AWS and backends for a userbase.
-                            </p>
+              
                             <p>
                                 University gave me a deep understanding of programming principles and the ins and outs of Java, while personal projects
                                 and real-world experience have expanded my skills in JavaScript, React, backend development, and AWS.

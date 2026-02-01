@@ -30,14 +30,14 @@ export const Hero = () => {
 
             {/* Dots */}
             <div>
-                {[...Array(30)].map((_, i) => (
+                {[...Array(40)].map((_, i) => (
                         <div 
                         className="absolute w-1.5 h-1.5 rounded-full opacity-60"
                         style={{
                                backgroundColor: "#20B2A6",
                                left: `${Math.random() * 100}%`,
                                top: `${Math.random() * 100}%`,
-                               animation: `slow-drift ${12 + Math.random() * 20}s ease-in-out infinite`, 
+                               animation: `slow-drift ${10 + Math.random() * 10}s ease-in-out infinite`, 
                         }}
                         key={i}
                         />
@@ -47,27 +47,30 @@ export const Hero = () => {
          
          {/* Content */}
          <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
-            <div className="grid lg:grid-cols-2 gap-12">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+
+                {/* Left column */} 
+                <div className="flex flex-col gap-10 animate-fade-in animation-delay-300">
+
+                    <div>
+                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
+                            <span className="w-2 h-2 bg-primary rounded full"/> 
+                            Software Engineer • Bachelor in Computer Science
+                        </span>
+                    </div>
                 {/* Title */}
                 <div className="flex flex-col animate-fade-in">
-                    <h1 className="text-5xl italic font-sans">
+                    <h1 className="text-7xl italic font-sans">
                         Hello, I'm 
                     </h1>
-                        <h1 className="text-5xl font-bold glow-text italic text-primary font-sans">
+                        <h1 className="text-7xl font-bold glow-text italic text-primary font-sans">
                         Hugo Thim
                     </h1>
                 </div>
-                {/* Left column */} 
-                <div className="flex flex-col gap-4 animate-fade-in animation-delay-300">
-                    <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary w-">
-                        <span className="w-2 h-2 bg-primary rounded full"/> 
-                        Software Engineer 
-                    </span>
-
-                <p className="text-l text-muted-foreground max-w-lg">
-                        Hi, I'm a software engineer specialized in Java, React-native, Cloud engineering and Javascript. I’m passionate about computers and building creative, thoughtful software.
+                <p className="text-xl text-muted-foreground max-w-lg">
+                        Hi, I'm a software engineer specialized in Java, React, Backend, Frontend and Javascript. I’m passionate about computers and building creative, thoughtful software.
                 </p>
-                </div>
+              
                 {/* CTA */}
                  <div className="flex gap-4 animate-fade-in animation-delay-300">
                     <Button size="lg"> 
@@ -117,8 +120,8 @@ export const Hero = () => {
                  </div>
 
             </div>
-                {/* Right column - Face image*/}
 
+            {/* Right column - Face image*/}
             <div className="relative animate-fade-in animation-delay-300">
 
                 {/*Profile image */}
@@ -147,9 +150,10 @@ export const Hero = () => {
                      </div>
                 </div>
             </div>
+        </div>
 
             {/* Skils  */}
-            <div className="mt-20 animate-fade-in animation-delay-600">
+            <div className="mt-50 self-center animate-fade-in animation-delay-600">
                 <p className="text-md text-muted-foreground text-center mb-6">Technologies i work with:</p>
                 <div className="relative overflow-hidden ">
                     <div className="flex animate-marquee">

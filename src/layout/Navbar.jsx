@@ -2,8 +2,8 @@ import {Button} from "../components/Button"
 
 const navLinks = [
     {href: "#about", label: "About"},
-    {href: "#Experience", label: "Experience"},
-    {href: "#Projects", label: "Projects"}
+    {href: "#experience", label: "Experience"},
+    {href: "#projects", label: "Projects"}
 
 ]
 
@@ -35,4 +35,4 @@ export const Navbar = () => {
             </nav>
         </header>
     )
-        }
+}
