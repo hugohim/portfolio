@@ -131,7 +131,7 @@ export const Hero = () => {
                         from-primary/30 via-transparent 
                         to-primary/10 blur-2xl animate-pulse" />
                     <div className="relative glass rounded-3xl p-3 glow-border">
-                        <img src="/me.png" alt="Hugo Thim profile picture"
+                        <img src="/meAI.png" alt="Hugo Thim profile picture"
                         className="w-full aspect-[4/5] object-cover rounded-2xl "
                         /> 
                         {/* Floating badge */}
@@ -140,11 +140,6 @@ export const Hero = () => {
                                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"/>
                                 <span className="text-sm font-medium">Available for work</span>
                             </div>
-                        </div>
-
-                        {/* Stats badge*/}
-                        <div>
-
                         </div>
 
                      </div>

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { About } from '@/sections/About';
 import { Projects } from '@/sections/Projects';
-import { Experience } from './sections/Experience';
+import { Contact  } from './sections/Contact';
 import {Hero} from "@/sections/Hero"
 import { Navbar } from './layout/Navbar';
 
@@ -18,7 +18,7 @@ function App() {
           <Hero/>
           <About/>
           <Projects/>
-          <Experience/>
+          <Contact/>
       </main>
 
    </div> 
