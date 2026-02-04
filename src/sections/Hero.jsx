@@ -133,7 +133,7 @@ export const Hero = () => {
                         from-primary/30 via-transparent 
                         to-primary/10 blur-2xl animate-pulse" />
                     <div className="relative glass rounded-3xl p-3 glow-border">
-                        <img src="/meAI.png" alt="Hugo Thim profile picture"
+                        <img src="meAI.png" alt="Hugo Thim profile picture"
                         className="w-full aspect-[4/5] object-cover rounded-2xl "
                         /> 
                         {/* Floating badge */}

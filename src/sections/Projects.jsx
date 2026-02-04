@@ -4,7 +4,7 @@ const projects = [
     {
         title: "Stockupdater",
         description: "Automatically updates webshop inventory levels from a remote FTP server via the webshop API.",
-        image: "/projects/awss3.png",
+        image: "projects/awss3.png",
         tags: ["AWS", "NodeJS", "Javascript"],
         link: "#",
         github: "#https://github.com/hugohim/StockUpdater-FTP-to-API-.git"
@@ -12,7 +12,7 @@ const projects = [
     {
         title: "Web game",
         description: "Tetris inspired game built with javascript.",
-        image: "/projects/tetris.png",
+        image: "projects/tetris.png",
         tags: ["Javascript", "Web-development"],
         link: "#https://hugohim.github.io/TetrisInspiredBridgeGame",
         github: "#https://github.com/hugohim/TetrisInspiredBridgeGame.git"
@@ -22,7 +22,7 @@ const projects = [
 const healthcareApp = {
     title: "AI healthcare app",
     description: "Ongoing full-stack iOS and Android application. The app currently supports user authentication (login/signup), AI-driven chat interactions, and persistent data storage.",
-    image: "/projects/wellpalLogin.png",
+    image: "projects/wellpalLogin.png",
     tags: ["React",  "Native", "Typescript", "Firebase"],
     link: "#",
     github: ""
