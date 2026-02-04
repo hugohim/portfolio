@@ -79,7 +79,7 @@ export const Hero = () => {
                         <ArrowRight />
                         </Button>
                     </a>
-                    <button className=" group relative flex items-center inline-flex gap-4 bg-muted shadow-md shadow-primary rounded-full px-8 py-4 text-lg hover:bg-primary">
+{/*                     <button className=" group relative flex items-center inline-flex gap-4 bg-muted shadow-md shadow-primary rounded-full px-8 py-4 text-lg hover:bg-primary">
                         Download CV
                         <div className="relative w-5 h-7">
                             <Download 
@@ -101,7 +101,7 @@ export const Hero = () => {
                             group-hover:animate-buttonCV"
                             />
                         </div>
-                    </button>
+                    </button> */}
                  </div>
 
                  {/* Socials */}
@@ -109,7 +109,7 @@ export const Hero = () => {
                     <span className="text-sm text-muted-foreground">Follow: </span>
                     {[
                         {icon: Github, href: "github.com/hugohim"},
-                        {icon: Linkedin, href: ""},
+                        {icon: Linkedin, href: " https://www.linkedin.com/in/hugo-thim-b677872ba/"},
                     ].map((social, idx) => (
                         <a 
                         key={idx}
