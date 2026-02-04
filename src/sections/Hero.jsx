@@ -21,13 +21,13 @@ export const Hero = () => {
 
         {/* Hero Bg */}
         <div className="absolute inset-0">
-            <img 
+      {/*       <img 
             src="/hero-bg.png"
             alt="Hero image"
             className="w-full h-full object-cover opacity-40" 
             />
             <div className="absolute b-100 inset-0 bg-gradient-to-b from-background/25 via-background/80 to-background"/>
-
+ */}
             {/* Dots */}
             <div>
                 {[...Array(40)].map((_, i) => (
@@ -73,10 +73,12 @@ export const Hero = () => {
               
                 {/* CTA */}
                  <div className="flex gap-4 animate-fade-in animation-delay-300">
-                    <Button size="lg"> 
-                        Contact me 
-                    <ArrowRight />
-                    </Button>
+                    <a href="#contact">
+                        <Button size="lg"> 
+                            Contact me 
+                        <ArrowRight />
+                        </Button>
+                    </a>
                     <button className=" group relative flex items-center inline-flex gap-4 bg-muted shadow-md shadow-primary rounded-full px-8 py-4 text-lg hover:bg-primary">
                         Download CV
                         <div className="relative w-5 h-7">
@@ -88,7 +90,7 @@ export const Hero = () => {
                                 group-hover:scale-75"  
                             />
                             <Handshake
-                            className=" h-6 w-6
+                            className=" h-7 w-5
                             duration-700
                             absolute inset-0
                             opacity-0

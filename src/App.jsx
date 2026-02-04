@@ -4,6 +4,7 @@ import { Projects } from '@/sections/Projects';
 import { Contact  } from './sections/Contact';
 import {Hero} from "@/sections/Hero"
 import { Navbar } from './layout/Navbar';
+import { Footer } from './layout/Footer'
 
 
 function App() {
@@ -14,12 +15,12 @@ function App() {
 
       <main>
           <Navbar/>
-
           <Hero/>
           <About/>
           <Projects/>
           <Contact/>
       </main>
+      <Footer/>
 
    </div> 
   );
