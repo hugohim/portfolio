@@ -45,11 +45,10 @@ export const About = () => {
                     </h2>
                     <div className='space-y-4 flex-1 text-muted-foreground animate-fade-in animation-delay-200'>
                         <p>
-                            I'm 22 years old with a big passion for tech and software. My journey started when attending 
-                            attending software engineering at Stockholm University, building a fundational understanding and a wide
-                            range of concepts within the computer science area. Now I have graduated the bachelor and focused on improving
+                            I'm 22 years old with a big passion for tech and software. My journey began when attending 
+                            software engineering at Stockholm University, building a fundational understanding and a wide
+                            range of concepts within the computer science field. Since completing my bachelor’s degree, I’ve been focused on improving
                             my tech stack and adopting modern frameworks to create full functional apps.
-                            
                         </p>
               
                             <p>
