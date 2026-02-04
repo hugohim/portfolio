@@ -2,7 +2,7 @@ import { Github, Linkedin, Twitter, Heart } from "lucide-react";
 
 const socialLinks = [
   { icon: Github, href: "#https://github.com/hugohim", label: "GitHub" },
-  { icon: Linkedin, href: "# https://www.linkedin.com/in/hugo-thim-b677872ba/", label: "LinkedIn" },
+  { icon: Linkedin, href: "#https://www.linkedin.com/in/hugo-thim-b677872ba/", label: "LinkedIn" },
 ];
 
 const footerLinks = [
@@ -30,9 +30,9 @@ export const Footer = () => {
 
           {/* Links */}
           <nav className="flex flex-wrap justify-center gap-6">
-            {footerLinks.map((link) => (
+            {footerLinks.map((link, idx) => (
               <a
-                key={link.href}
+                key={idx}
                 href={link.href}
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
