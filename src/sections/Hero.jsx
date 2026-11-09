@@ -68,7 +68,7 @@ export const Hero = () => {
                     </h1>
                 </div>
                 <p className="text-xl text-muted-foreground max-w-lg">
-                        Hi, I'm a software engineer specialized in Java, React, Backend, Frontend and Javascript. I’m passionate about computers and building creative, thoughtful software.
+                        Hi, I'm a software engineer specialized in React Native, Java, Backend, Frontend and Typescript. I’m passionate about computers and building creative, thoughtful software.
                 </p>
               
                 {/* CTA */}
