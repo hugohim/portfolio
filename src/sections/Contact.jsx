@@ -44,16 +44,16 @@ export const Contact = () => {
             {/* Form */}
             <form onSubmit={handleSubmit} >
                 <div className="flex flex-col glass border gap-4 m-8 p-6 rounded-t-4xl w-2/3 lg:w-1/3 m-auto ">
-                    <div className="glass p-3 rounded-2xl flex gap-4 items-center">
+                    <div className="glass p-3 rounded-2xl flex items-center">
                         <label className="text-md font-bold ">Name:</label>
-                        <input type="text" placeholder="Your name" className="rounded-2xl p-3 outline-none focus:border border-primary animate-all"
+                        <input type="text" placeholder="Your name" className="rounded-2xl p-3 outline-none focus:border border-primary animate-all w-full text-sm"
                         value={formData.name}
                         onChange={(e) => setformData({...formData, name: e.target.value})}
                         />
                     </div>
-                     <div className="glass p-3 rounded-2xl flex gap-4 items-center">
+                     <div className="glass p-3 rounded-2xl flex items-center overflow-hidden">
                         <label className="text-md font-bold ">Email:</label>
-                        <input type="text" placeholder="example@mail.com" className="rounded-2xl p-3 outline-none focus:border border-primary animate-all"
+                        <input type="text" placeholder="example@mail.com" className="rounded-2xl p-3 pr-0 outline-none focus:border border-primary animate-all w-full text-sm"
                           value={formData.email}
                         onChange={(e) => setformData({...formData, email: e.target.value})}
 

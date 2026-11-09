@@ -1,5 +1,5 @@
 import { Description } from '@radix-ui/react-toast';
-import { Code2, Users, Lightbulb, PcCase } from 'lucide-react';
+import { Code2, Users, Brain, PcCase } from 'lucide-react';
 
 const highlights =  [
         {
@@ -11,13 +11,13 @@ const highlights =  [
         {
                 icon: Users,
                 title: "Team member",
-                description: "With hands-on experience in Scrum and collaborative development, I value leveraging each team member’s strengths and am comfortable working in such environments"
+                description: "With hands-on experience in Scrum and collaborative development"
 
         },
         {
-                icon: Lightbulb,
-                title: "Technical skills",
-                description: "Staying ahead with the latest technologies and always looking to improve",
+                icon: Brain,
+                title: "AI in coding",
+                description: "I use AI to work faster, but I only ship code I understand. No AI slop. ",
         },
         {
             icon: PcCase,
@@ -68,12 +68,12 @@ export const About = () => {
                     {/* Highlights */}
                     <div className='grid grid-cols-2 gap-6 flex-1 mt-20'>
                         {highlights.map((item, idx ) => (
-                           <div className='glass p-6 rounded-3xl group animate-fade-in '>
+                           <div className='glass p-6 rounded-3xl animate-fade-in '>
                             <div className='bg-primary/10 w-12 h-12 rounded-xl flex items-center justify-center mb-4 hover:bg-primary/20'>
                                 <item.icon className='text-primary w-6 h-6'/>
                             </div>
                             <h3 className='text-lg font-semibold mb-2'>{item.title}</h3>
-                            <p className='text-muted-foreground'>{item.description}</p>
+                            <p className='text-muted-foreground '>{item.description}</p>
                            </div>
                         ))}
                     </div>
