@@ -34,7 +34,7 @@ export const About = () => {
     return(
         <section id='about' className='py-32 relative overflow-hidden'>
             <div className='container lg:flex gap-8 mx-auto px-6 relative z-10'>
-                    <div className='flex-1 space-y-8 my-6 w-400'>
+                    <div className='flex-1 space-y-8 my-6'>
                     <span className='text-secondary-foreground text-sm tracking-wider uppercase'>About me</span>
                     {/* Left column */}
                     <div>
@@ -45,12 +45,12 @@ export const About = () => {
                     </h2>
                     <div className='space-y-4 flex-1 text-muted-foreground animate-fade-in animation-delay-200'>
                         <p>
-                            I'm 22 years old with a big passion for tech and software. My journey began when attending 
+                            I'm 22 years old with a big passion for tech and software. My journey began when attending
                             software engineering at Stockholm University, building a fundational understanding and a wide
                             range of concepts within the computer science field. Since completing my bachelor’s degree, I’ve been focused on improving
                             my tech stack and adopting modern frameworks to create full functional apps.
                         </p>
-              
+
                             <p>
                                 University gave me a deep understanding of programming principles and the ins and outs of Java, while personal projects
                                 and real-world experience have expanded my skills in JavaScript, React, backend development, and AWS.
@@ -74,7 +74,7 @@ export const About = () => {
                             </div>
                             <h3 className='text-lg font-semibold mb-2'>{item.title}</h3>
                             <p className='text-muted-foreground'>{item.description}</p>
-                           </div> 
+                           </div>
                         ))}
                     </div>
             </div>
